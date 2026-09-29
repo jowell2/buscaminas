@@ -307,7 +307,7 @@ public class juego extends JFrame {
         panelInferior.setBackground(COLOR_PANEL_SUPERIOR);
         panelInferior.setBorder(BorderFactory.createEmptyBorder(4, 12, 4, 12));
 
-        JLabel lblNombre = new JLabel("Jowell Acosta - 24-1268");
+        JLabel lblNombre = new JLabel("Buscaminas");
         lblNombre.setForeground(new Color(120, 130, 150));
         lblNombre.setFont(new Font("Segoe UI", Font.PLAIN, 12));
 
@@ -442,7 +442,7 @@ public class juego extends JFrame {
             if (temporizador != null) temporizador.stop();
             mostrarTodasLasMinas();
             int opcion = JOptionPane.showOptionDialog(this,
-                "\u00a1Boom! Pisaste una mina.\n\u00bfQuieres intentar de nuevo?\n\nJowell Acosta - 24-1268",
+                "\u00a1Boom! Pisaste una mina.\n\u00bfQuieres intentar de nuevo?",
                 "Game Over", JOptionPane.YES_NO_OPTION,
                 JOptionPane.ERROR_MESSAGE, null,
                 new String[]{"Reintentar", "Men\u00fa"}, "Reintentar");
